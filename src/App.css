@@ -1,0 +1,97 @@
+
+
+.container {
+  width: 300px; 
+  height: 400px;
+
+  overflow: hidden;
+}
+
+.scrollable-content {
+  width: calc(100% + 17px);
+  height: 100%;
+  overflow-y: scroll;
+  padding: 10px;
+  
+  
+}
+
+.scrollable-content::-webkit-scrollbar {
+  width: 0; 
+}
+
+.child {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.child {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+
+} 
+
+
+
+/* ........... */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Inter:wght@700&family=Merriweather:wght@700&family=Monomaniac+One&family=PT+Serif:wght@700&family=Roboto:ital,wght@0,900;1,300&display=swap');
+
+
+.headerText{
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+.my-component{
+  font-family: 'Source Sans Pro';
+
+ 
+}
+
+/* .auto-scroll-list-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.list-item {
+  height: 100px;
+} */
+
+/* img{
+  width:100%;
+  height: auto;
+}
+
+.comment{
+  animation: slideup 15s linear infinite;
+}
+.comment:nth-child(1){
+  animation-delay: -3s;
+}
+.comment:nth-child(2){
+  animation-delay: 0s;
+}
+.comment:nth-child(3){
+  animation-delay: 3s;
+}
+.comment:nth-child(5){
+  animation-delay: 9s;
+}
+/* .comment:nth-child(6){
+  animation-delay: 12s;
+}
+.comment:nth-child(7){
+  animation-delay: 15s;
+}
+.comment:nth-child(8){
+  animation-delay: 18s;
+} */

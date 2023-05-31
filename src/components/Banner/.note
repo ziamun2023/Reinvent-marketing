@@ -1,0 +1,121 @@
+
+<div className="container w-[410px] top-20 left-44 absolute">
+  <div  data-aos="fade-up-left" className="scrollable-content ">
+  
+  
+
+  <div  className=' flex w-[390px]  my-4  child    bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic1} alt="" />
+                        <small className='text-center '>Rohan.s</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Refreshing</p>
+                       <p className='font-normal'>Keeps water ice-cold all day. A must-have for refreshing hydratio</p>
+
+                    </div>
+                </div>
+                      
+                <div className='flex w-[390px]    my-4  child   bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic2} alt="" />
+                        <small className='text-center '>ANNYA M.</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Adventure-ready </p>
+                       <p className='font-normal'>Durable, leak-proof, perfect for adventures 
+Ideal for outdoor activities</p>
+
+                    </div>
+                </div>
+                <div   className='flex w-[390px] child     bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic3} alt="" />
+                        <small className='text-center '>Rohan.s</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Sleek and Insulated</p>
+                       <p className='font-normal'>Sleek design, excellent insulation, a must-have! 
+Stylish and functional</p>
+
+                    </div>
+                </div>
+                      
+                <div   className='flex w-[390px] child     bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic4} alt="" />
+                        <small className='text-center '>ANNYA M.</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Adventure-ready </p>
+                       <p className='font-normal'>Durable, leak-proof, perfect for adventures 
+Ideal for outdoor activities</p>
+
+                    </div>
+                </div>
+               {/* ........................ */}
+
+
+               <div   className='flex w-[390px] child      bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic5} alt="" />
+                        <small className='text-center '>Rohan.s</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Refreshing</p>
+                       <p className='font-normal'>Keeps water ice-cold all day. A must-have for refreshing hydratio</p>
+
+                    </div>
+                </div>
+                      
+                <div  className='flex w-[390px] child     bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic6} alt="" />
+                        <small className='text-center '>ANNYA M.</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Adventure-ready </p>
+                       <p className='font-normal'>Durable, leak-proof, perfect for adventures 
+Ideal for outdoor activities</p>
+
+                    </div>
+                </div>
+                  <div    className='flex w-[390px] child     bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic7} alt="" />
+                        <small className='text-center '>Rohan.s</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Refreshing</p>
+                       <p className='font-normal'>Keeps water ice-cold all day. A must-have for refreshing hydratio</p>
+
+                    </div>
+                </div>
+                      
+              
+                <div    className='flex w-[390px] child     bg-white rounded-xl shadow-md shadow-gray-400'>
+                    <div className='grid justify-items-center ms-8 me-6'>
+                        <img className=' w-10 rounded-full' src={bannerMinipic8} alt="" />
+                        <small className='text-center '>ANNYA M.</small>
+                    </div>
+                    <div className=''>
+                       <div className='flex w-4'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
+                       <p className='font-bold tracking-wide text-gray-900'>Adventure-ready </p>
+                       <p className='font-normal'>Durable, leak-proof, perfect for adventures 
+Ideal for outdoor activities</p>
+
+                    </div>
+                </div>
+  
+   
+  
+   </div>
+
+  </div>
