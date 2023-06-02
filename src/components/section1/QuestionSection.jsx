@@ -1,18 +1,20 @@
 import React from 'react';
-import { Accordion, AccordionItem } from 'react-light-accordion';
-import 'react-light-accordion/demo/css/index.css';
+
+
+import qstn from '../../assets/casual-life-3d-close-up-of-white-question-mark 1.png'
+import qstn2 from '../../assets/casual-life-3d-close-up-of-white-question-mark 2.png'
 const QuestionSection = () => {
     return (
-        <div className=' '>
-              <div className='my-12'>
-              <p   style={{fontWeight:"700"}}  className='my-component   text-5xl text-black text-center'> Frequently Asked Questions</p>
-                   <p className='text-center py-4 my-component '>This is where all the answers to your questions are.</p>
+        <div className='mt-28 '>
+              <div   className=''>
+              <p  data-aos="zoom-in"  style={{fontWeight:"700"}}  className='my-component text-2xl   lg:text-5xl text-black text-center'> Frequently Asked Questions</p>
+                   <p data-aos="zoom-in"  className='text-center py-4 my-component '>This is where all the answers to your questions are.</p>
               </div>
-       <div className='grid grid-cols-5'>
+       <div data-aos="flip-down" className='grid grid-cols-5'>
   <div>
-emojji
+<img className='mt-[800px] hidden lg:block' src={qstn} alt="" />
   </div>
-  <div className='col-span-3'> 
+  <div className='lg:col-span-3 col-span-5 mx-4  '> 
   <div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
  What happens to products after the Campaign?
@@ -180,10 +182,10 @@ These reporting fields will provide you with valuable data and insights into the
 </div>
   </div>
   <div>
-emoji
+  <img className='mt-20 hidden lg:block' src={qstn2} alt="" />
   </div>
        </div>
-
+    
 
         </div>
     );
