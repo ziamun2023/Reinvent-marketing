@@ -19,7 +19,7 @@ const Slider= ({ slides }) => {
       <div className="slider-wrapper  " style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
      
         {slides.map((slide, index) => (
-          <div className="slide testimoni relative " key={index}>
+          <div className="slide testimoni relative  " key={index}>
             {slide}
          
           </div>

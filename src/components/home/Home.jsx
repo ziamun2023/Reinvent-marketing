@@ -9,7 +9,13 @@ import QuestionSection from '../section1/QuestionSection';
 import Section4 from '../section1/Section4';
 import SectionBenefit from '../section1/SectionBenefit';
 
-import Testimoni from '../section1/Testimoni';
+
+
+import TestimonialFinal from '../section1/TestimonialFinal';
+import AllRevies from '../section1/AllRevies';
+import Slider from '../section1/Slider';
+import Footer from '../section1/Footer';
+import Section6 from '../section1/Section6';
 
 
 
@@ -21,19 +27,24 @@ const Home = () => {
         <>
   
  
- <HomeBanner/>
+<div className=''>
+<HomeBanner/>
       <Section1/>
 
       <Section2/>
       <Section3/>
  <Section4/>
+ <AllRevies/>
 
  <SectionBenefit/>
- <Testimoni/>
- 
+
+ <TestimonialFinal/>
+
 
       <QuestionSection/>
-
+      <Section6/>
+</div>
+<Footer/>
 
            
         </>

@@ -87,7 +87,7 @@ const Testimoni = () => {
     
     return (
         <div className=''>
-        <h1 className='text-center my-component text-4xl font-bold'>Testimonial</h1>
+        <h1 className='text-center my-component text-4xl font-bold'>Testimonial </h1>
         <Slider slides={slides} />
       </div>
     );

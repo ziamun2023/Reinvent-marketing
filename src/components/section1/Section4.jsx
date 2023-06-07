@@ -3,7 +3,7 @@ import mans from '../../assets/3d-fluency-three-men.png'
 import star from '../../assets/icons8-star-48.png'
 import rocket from '../../assets/3d-fluency-launch.png'
 import percetn from '../../assets/3d-fluency-discount (1).png'
-import arrow from '../../assets/icons8-arrow-30.png'
+import arrow from '../../assets/arrow-narrow-up-right.png'
 
 const Section4 = () => {
     return (
@@ -11,10 +11,10 @@ const Section4 = () => {
                       <p style={{fontWeight:"700"}} className='text-black lg:text-5xl 
      tracking-tight text-medium  lg:hidden   my-component text-3xl  '>Numbers Speak Louder</p>
       <p className='text-black lg:ms-8 ms-5 py-5 lg:hidden'>Our proven track record is not just a claim but delivered with evidence</p>
-              <div  className='px-10 lg:hidden md:hidden'>
+              <div  className=' lg:hidden md:hidden'>
                <div className='grid lg:grid-cols-2 lg:mb-16  '>
                <div className='my-4 lg:my-0'>
-<div className='flex'><img className='w-10 ' src={rocket } alt="" /> <p className='text-3xl font-bold'>350 +</p></div>
+<div className='flex '><img className='w-10 ' src={rocket } alt="" /> <p className='text-3xl font-bold'>350 +</p></div>
 <p className='ms-10' >Product Launches</p>
                 </div> 
                 <div className='my-4 lg:my-0'>
@@ -39,13 +39,15 @@ const Section4 = () => {
           <p style={{fontWeight:"700"}} className='text-black lg:text-4xl 
      tracking-tight text-medium   my-component text-3xl hidden lg:block '>Empowering Brands with <br /> Reviews</p>
      <p className='text-black lg:ms-8 ms-5 py-5'>Unveiling Our Remarkable Achievements</p>
-     <div className='flex gap-3'>
-<div className='flex  bg-[rgb(251,188,29)] col-span-1 rounded-xl px-3 py-2 font-medium '>  <div>
-<button className=' '>Call us Now</button></div> <img className=' -rotate-45  ' src={arrow} alt="" /></div>
-     <div className='col-span-2  lg:w-40 border text-center font-medium border-gray-900 rounded-xl py-2   '>
+     <div className='lg:flex'>
+<div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>
+<div className='grid justify-items-center  bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
+<button className=' flex pt-1 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
+     <div className='h-12  w-[320px]   lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
      Schedule a Meeting
      </div>
     </div>
+</div>
             </div>  
             <div data-aos="zoom-in" className='px-10 hidden lg:block'>
                <div className='grid grid-cols-2 mb-16  '>

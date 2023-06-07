@@ -12,7 +12,11 @@ import bannerMinipic5 from '../../assets/hero-testimonial-2.jpg (6).png'
 import bannerMinipic6 from '../../assets/hero-testimonial-2.jpg (7).png'
 import bannerMinipic7 from '../../assets/hero-testimonial-2.jpg (8).png'
 import bannerMinipic8 from '../../assets/hero-testimonial-2.jpg (9).png'
-import arrow from '../../assets/icons8-arrow-30.png'
+import amazon from '../../assets/amazon.png'
+import amazon3 from '../../assets/Screenshot 2023-05-30 105535.png'
+import amazon4 from '../../assets/Screenshot 2023-05-30 105754.png'
+import amazon2 from '../../assets/d2023-05-30 110011.png'
+import arrow from '../../assets/arrow-narrow-up-right.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -26,15 +30,16 @@ const HomeBanner = () => {
 
   
     return (
-    <div className=''>
-          <div  className='lg:flex lg:flex-row-reverse relative  justify-center mt-14   z-10' >
+    <div>
+      <div className='relative'>
+          <div  className='lg:flex lg:flex-row-reverse relative   justify-center mt-14   z-10' >
 
 <div className='relative '>
-
+<p className='absolute top-6 text-white lg:text-2xl  font-semibold my-component tracking-wider left-16 lg:left-9'>80 NEW REVIEWS </p>
     <img className='lg:w-[510px] lg:h-[514px] h-[320px] w-[300] mx-auto '  src={bannerPhoto} alt="" />
 
-<div className='lg:hidden md:hidden mobile '>
-<div  data-aos="fade-up-left" className="h-[500px]   carousel w-[375px] -top-[480px] left-[100px] absolute carousel-vertical rounded-box">
+<div className='lg:hidden  mobile  '>
+<div  data-aos="fade-up-left" className="h-[500px]   carousel w-[375px] -top-[400px] left-[100px] absolute carousel-vertical rounded-box">
 <div className="carousel-item h-full grid ">
 <div   className=' flex w-[370px]  child    bg-white rounded-xl shadow-md shadow-gray-400'>
             <div className='my-auto mx-2'>
@@ -252,23 +257,37 @@ Ideal for outdoor activities</small>
 
 
 </div>
-<div  className='mt-14  lg:pe-20' >
+<div  className='lg:mt-14 mt-20 lg:pe-20 ' >
     <p  data-aos="fade-right" style={{fontWeight:"700"}} className='text-gray-900 lg:text-5xl 
      tracking-tight  my-component  text-3xl mt-0 lg:leading-normal mx-5 lg:mx-0'>Maximise Visibility through <br /> Customer <span className='text-[rgb(255,130,63)]'>Reviews.</span></p>
     <p  data-aos="fade-right"  className=' mt-4 mb-7  text-[rgb(70,70,98)] headerText mx-5 lg:mx-0'>Unlock the Power of Product Reviews and Drive Your Sales to New  Heights</p>
 
-  <div  data-aos="fade-right" className='lg:grid-cols-3 grid  gap-3'>
-<div className='flex  bg-[rgb(251,188,29)] lg:col-span-1 col-span-3 rounded-xl px-3 py-2 font-medium '>  <div>
-<button className=' '>Call us Now</button></div> <img className=' -rotate-45  ' src={arrow} alt="" /></div>
-     <div className='lg:col-span-2 col-span-3 lg:w-40 border text-center font-medium border-gray-900 rounded-xl py-2   '>
+    <div className='lg:flex'>
+<div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>
+<div className='grid justify-items-center  bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
+<button className=' flex pt-1 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
+     <div className='h-12  w-[320px]   lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
      Schedule a Meeting
      </div>
     </div>
+</div>
 
  
 </div>
 </div>
+<div className='bg-[rgb(251,188,29)] lg:h-[40px] h-[20px] -rotate-2 w-full absolute top-[150px] lg:top-[480px]'>
 
+</div>
+<div className='bg-[rgb(254,101,18)] lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'>
+
+</div>
+    </div>
+    <div className='grid lg:grid-cols-4 mt-28 grid-cols-2 justify-items-center h-28 bg-black'>
+      <img className='lg:w-44 w-28 my-auto' src={amazon} alt="" />
+      <img className='lg:w-44 w-28 my-auto' src={amazon3} alt="" />
+      <img className='lg:w-44 w-28 my-auto' src={amazon4} alt="" />
+      <img className='lg:w-44 w-28 my-auto' src={amazon2} alt="" />
+    </div>
     </div>
     );
 };

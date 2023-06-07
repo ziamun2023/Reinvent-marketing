@@ -7,8 +7,8 @@ const QuestionSection = () => {
     return (
         <div className='mt-28 '>
               <div   className=''>
-              <p  data-aos="zoom-in"  style={{fontWeight:"700"}}  className='my-component text-2xl   lg:text-5xl text-black text-center'> Frequently Asked Questions</p>
-                   <p data-aos="zoom-in"  className='text-center py-4 my-component '>This is where all the answers to your questions are.</p>
+              <p  data-aos="zoom-in"  style={{fontWeight:"700"}}  className='my-component text-3xl   lg:text-5xl text-black text-center'> Frequently Asked Questions</p>
+                   <p data-aos="zoom-in"  className='text-center pt-6 pb-14 my-component '>This is where all the answers to your questions are.</p>
               </div>
        <div data-aos="flip-down" className='grid grid-cols-5'>
   <div>

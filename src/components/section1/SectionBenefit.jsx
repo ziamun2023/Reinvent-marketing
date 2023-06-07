@@ -10,9 +10,9 @@ AOS.init();
 
 const SectionBenefit = () => {
     return (
-        <div className='lg:mx-28 lg:mt-10'>
+        <div className='lg:mx-28 mx-0 lg:mt-10'>
           <div  data-aos="zoom-out-left" className='lg:flex items-center gap-14 '>
-            <div className='px-24'>
+            <div className='lg:px-24 mx-4'>
                 <img className='w-10 py-5' src={iconhead} alt="" />
                 <p style={{fontWeight:"700"}} className='lg:text-4xl 
      tracking-tight text-medium  my-component text-3xl text-black pb-8 '>Who Can Benefit?</p>
@@ -23,7 +23,7 @@ const SectionBenefit = () => {
             <img className='w-[462px] h-[660] ' src={discuss} alt="" />
             </div>  
             <div  data-aos="zoom-out-right" className='flex lg:flex-row-reverse flex-col items-center gap-14 lg:my-10'>
-                <div className='px-24'>
+                <div className='lg:px-24 mx-4'>
                     <img className='w-10 py-5 ' src={handshake} alt="" />
                     <p style={{fontWeight:"700"}} className='lg:text-4xl 
      tracking-tight text-medium  my-component text-3xl text-black pb-8 '>Choose a Partner, not an agency</p>
