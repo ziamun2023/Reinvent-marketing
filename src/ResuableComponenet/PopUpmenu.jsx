@@ -2,7 +2,7 @@ import React from 'react';
 
 const PopUpmenu = () => {
     return (
-        <div>
+        <div className=''>
             
         </div>
     );
