@@ -259,3 +259,9 @@ img{
 }
  */
 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+ .detailFont{
+  font-family: 'Roboto Condensed', sans-serif;
+ }
