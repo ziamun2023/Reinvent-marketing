@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import 'animate.css';
 
 
-import bannerPhoto from '../../assets/80 NEW REVIEWS (1000 × 1000 px) 1.png'
+import bannerPhoto from '../../assets/bannerfirst.jpg'
+import bannerPhoto2 from '../../assets/80 NEW REVIEWS (1000 × 1000 px) 1.png'
 import star from '../../assets/icons8-star-48.png'
 import bannerMinipic1 from '../../assets/hero-testimonial-2.jpg (2).png'
 import bannerMinipic2 from '../../assets/hero-testimonial-2.jpg (3).png'
@@ -19,6 +20,7 @@ import amazon2 from '../../assets/d2023-05-30 110011.png'
 import arrow from '../../assets/arrow-narrow-up-right.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { Link } from 'react-router-dom';
 // ..
 AOS.init();
 
@@ -34,12 +36,19 @@ const HomeBanner = () => {
       <div className='relative'>
           <div  className='lg:flex lg:flex-row-reverse relative   justify-center mt-14   z-10' >
 
-<div className='relative '>
-<p className='absolute top-6 text-white lg:text-2xl  font-semibold my-component tracking-wider left-16 lg:left-9'>80 NEW REVIEWS </p>
-    <img className='lg:w-[510px] lg:h-[514px] h-[320px] w-[300] mx-auto '  src={bannerPhoto} alt="" />
+<div className='relative group '>
+<p className='absolute  top-6 text-white  lg:text-2xl  font-semibold my-component tracking-wider left-16 lg:left-9'>80 NEW REVIEWS </p>
+  
+<img className=' lg:w-[510px] lg:h-[514px] duration-500 h-[320px] group-hover:opacity-0 opacity-100 w-[300] mx-auto  rounded-3xl object-cover '  src={bannerPhoto} alt="" />
+<img className='lg:w-[510px] lg:h-[514px] h-[320px]  absolute top-0 z-0 w-[300] mx-auto  rounded-3xl object-cover  opacity-0 group-hover:opacity-100 duration-500'  src={bannerPhoto2} alt="" />
 
 <div className='lg:hidden  mobile  '>
-<div  data-aos="fade-up-left" className="h-[500px]   carousel w-[375px] -top-[400px] left-[100px] absolute carousel-vertical rounded-box">
+<div   data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out"
+ 
+    data-aos="fade-up-left" className="h-[500px]   carousel w-[375px] -top-[400px] left-[100px] absolute carousel-vertical rounded-box">
 <div className="carousel-item h-full grid ">
 <div   className=' flex w-[370px]  child    bg-white rounded-xl shadow-md shadow-gray-400'>
             <div className='my-auto mx-2'>
@@ -146,7 +155,12 @@ Ideal for outdoor activities</small>
 </div>
 
 </div>
-<div  data-aos="fade-up-left" className="h-[500px] hidden lg:block   carousel w-[450px] top-10 lg:top-20 left-44 absolute carousel-vertical rounded-box">
+<div   
+ data-aos-offset="200"
+ data-aos-delay="50"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out"
+  data-aos="fade-up-left" className="h-[500px] hidden lg:block   carousel w-[450px] top-10 lg:top-20 left-44 absolute carousel-vertical rounded-box">
 <div className="carousel-item h-full grid ">
 <div   className=' flex w-[370px]    child    bg-white rounded-xl shadow-md shadow-gray-400'>
             <div className='my-auto mx-2'>
@@ -264,21 +278,21 @@ Ideal for outdoor activities</small>
 
     <div className='lg:flex'>
 <div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>
-<div className='grid justify-items-center  bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
-<button className=' flex pt-1 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
-     <div className='h-12  w-[320px]   lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
+<div className='grid justify-items-center  shadow-lg shadow-gray-300  hover:text-white duration-200 bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
+<button className=' flex pt-1 shadow-md shadow-gray-300 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
+    <Link to='/meeting'> <div className='h-12  w-[320px]   duration-200 shadow-md shadow-gray-300 lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
      Schedule a Meeting
-     </div>
+     </div></Link>
     </div>
 </div>
 
  
 </div>
 </div>
-<div className='bg-[rgb(251,188,29)] lg:h-[40px] h-[20px] -rotate-2 w-full absolute top-[150px] lg:top-[480px]'>
+<div className='bg-[rgb(52,141,219)] lg:h-[40px] h-[20px] -rotate-2 w-full absolute top-[150px] lg:top-[480px]'>
 
 </div>
-<div className='bg-[rgb(254,101,18)] lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'>
+<div className='bg-[rgb(251,188,29)] lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'>
 
 </div>
     </div>
@@ -291,5 +305,5 @@ Ideal for outdoor activities</small>
     </div>
     );
 };
-
+// bg-[rgb(251,188,29)]
 export default HomeBanner;

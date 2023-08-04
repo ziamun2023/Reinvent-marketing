@@ -11,7 +11,7 @@ const TestimonialFinal = () => {
     const slides = [
         <div>    <div className=" lg:px-32 px-0  ">
         <div className='flex w-4 py-8'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-            <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Sharks Marketing has been an incredible partner in helping us build our brand on Amazon. Their provides a unique opportunity to engage with Influencers and generate authentic reviews
+            <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Reinvent Marketing has been an incredible partner in helping us build our brand on Amazon. Their provides a unique opportunity to engage with Influencers and generate authentic reviews
     </p>
     <div className="flex  mt-10   gap-5">
     <div>
@@ -27,7 +27,7 @@ const TestimonialFinal = () => {
         <div>
                   <div className="lg:px-32 px-0 ">
             <div className='flex w-4 py-8'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Running campaigns with Sharks Marketing has been a smart move for our business. They helped us overcome the challenge of getting enough reviews
+                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Running campaigns with Reinvent Marketing has been a smart move for our business. They helped us overcome the challenge of getting enough reviews
 
 </p>
 <div className="flex mt-10 gap-5">
@@ -48,7 +48,7 @@ const TestimonialFinal = () => {
     
       <div className="lg:px-32 px-0 ">
             <div className='flex w-4 py-8'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Sharks Marketing has made the review generation process a breeze for us. Their team has been responsive and helpful every step of the way.
+                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>Reinvent Marketing has made the review generation process a breeze for us. Their team has been responsive and helpful every step of the way.
 
 </p>
 <div className="flex mt-10 gap-5">
@@ -65,7 +65,7 @@ const TestimonialFinal = () => {
                <div>
                 <div className="lg:px-32 px-0  ">
             <div className='flex w-4 py-8'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>I was struggling to get reviews for my new product on Amazon. Thanks to Sharks Marketing, I was able to launch my product successfully with a stream of positive reviews.
+                <p className='my-component  font-semibold  text-start  leading-snug text-4xl text-black'>I was struggling to get reviews for my new product on Amazon. Thanks to Reinvent Marketing, I was able to launch my product successfully with a stream of positive reviews.
 </p>
 <div className="flex mt-10 gap-5">
     <div>
@@ -83,7 +83,7 @@ const TestimonialFinal = () => {
       ];
     return (
         <div>
-        <h1 className='text-center my-component text-4xl mt-14 font-bold'>Testimonial </h1>
+        <h1 data-aos="flip-up" className='text-center my-component text-4xl mt-14 font-bold'>Testimonial </h1>
         <Sliders slides={slides} />
         </div>
     );

@@ -14,7 +14,9 @@ const Sliders = ({ slides }) => {
     };
     return (
         <>
-           <div className="slider ">
+           <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="slider ">
       <div className="slider-wrapper  " style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
      
         {slides.map((slide, index) => (

@@ -10,12 +10,14 @@ const QuestionSection = () => {
               <p  data-aos="zoom-in"  style={{fontWeight:"700"}}  className='my-component text-3xl   lg:text-5xl text-black text-center'> Frequently Asked Questions</p>
                    <p data-aos="zoom-in"  className='text-center pt-6 pb-14 my-component '>This is where all the answers to your questions are.</p>
               </div>
-       <div data-aos="flip-down" className='grid grid-cols-5'>
+       <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className='grid grid-cols-5'>
   <div>
 <img className='mt-[800px] hidden lg:block' src={qstn} alt="" />
   </div>
   <div className='lg:col-span-3 col-span-5 mx-4  '> 
-  <div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+  <div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
  What happens to products after the Campaign?
   </div>
@@ -33,10 +35,10 @@ const QuestionSection = () => {
   </div>
 </div>   <div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
-  How much does it cost to run a campaign on Sharks Marketing? Will you charge any commission for orders?
+  How much does it cost to run a campaign on Reinvent Marketing? Will you charge any commission for orders?
   </div>
   <div className="collapse-content">
-    <p className='text-[rgb(70,70,98)] my-component font-normal'>We charge you for the cost of the product, which is paid out as a rebate to shoppers, as well as campaign fees. Our pricing structure is tailored category-wise based on the price of the products. Please contact our team at Sharks Marketing to get a category wise pricing list.
+    <p className='text-[rgb(70,70,98)] my-component font-normal'>We charge you for the cost of the product, which is paid out as a rebate to shoppers, as well as campaign fees. Our pricing structure is tailored category-wise based on the price of the products. Please contact our team at Reinvent Marketing to get a category wise pricing list.
 </p>
   </div>
   
@@ -89,7 +91,7 @@ Furthermore, in certain cases, we may impose limitations on the number of redemp
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
   Will my brand have control over the review content generated through the campaigns?
 
@@ -101,7 +103,7 @@ Furthermore, in certain cases, we may impose limitations on the number of redemp
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
   What kind of reporting and analytics will I receive regarding the review campaigns?
 
@@ -115,13 +117,13 @@ These reporting fields will provide you with valuable data and insights into the
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
-  Does Sharks Marketing offer any additional services or support for brand building on Amazon?
+  Does Reinvent Marketing offer any additional services or support for brand building on Amazon?
 
   </div>
   <div className="collapse-content">
-    <p className='text-[rgb(70,70,98)] my-component font-normal'>Certainly! Here are the additional services offered by Sharks Marketing for brand building on Amazon:
+    <p className='text-[rgb(70,70,98)] my-component font-normal'>Certainly! Here are the additional services offered by Reinvent Marketing for brand building on Amazon:
 
 1. Product Sourcing: We assist you in finding high-quality and in-demand products to add to your inventory, helping you expand your product offerings and meet customer demands effectively.
 
@@ -142,20 +144,20 @@ These reporting fields will provide you with valuable data and insights into the
  
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
-  How does Sharks Marketing handle negative reviews or competitor attacks?
+  How does Reinvent Marketing handle negative reviews or competitor attacks?
 
   </div>
   <div className="collapse-content">
-    <p className='text-[rgb(70,70,98)] my-component font-normal'>Sharks Marketing does not directly handle negative reviews or competitor attacks. However, we have a strong presence and connections within our community that enable us to identify potential instances of competitors running campaigns to attack your products and brand.
+    <p className='text-[rgb(70,70,98)] my-component font-normal'>Reinvent Marketing does not directly handle negative reviews or competitor attacks. However, we have a strong presence and connections within our community that enable us to identify potential instances of competitors running campaigns to attack your products and brand.
 
 
 </p>
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
   What happens if a shopper provides a fake order number, cancels, or returns their order after the Campaign?
   </div>
@@ -168,7 +170,7 @@ These reporting fields will provide you with valuable data and insights into the
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
   <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
   Can you put negative reviews on my competitor's Products?
   </div>

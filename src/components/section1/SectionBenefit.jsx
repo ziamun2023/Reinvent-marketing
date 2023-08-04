@@ -27,7 +27,7 @@ const SectionBenefit = () => {
                     <img className='w-10 py-5 ' src={handshake} alt="" />
                     <p style={{fontWeight:"700"}} className='lg:text-4xl 
      tracking-tight text-medium  my-component text-3xl text-black pb-8 '>Choose a Partner, not an agency</p>
-                    <p className=' text-[rgb(70,70,98)] headerText'>By choosing us, you can have peace of mind knowing that your business is in safe hands. With Sharks Marketing, you can trust that we have the expertise and systems in place to deliver exceptional results while keeping your business compliant and risk-free. Unlike other agencies, we prioritize your long-term success and take proactive measures to ensure that your review generation efforts remain within the boundaries set by the platforms. Our clients have entrusted us with their seller accounts, and we are proud to say that they have never received any policy violation warnings or faced unnecessary risks</p>
+                    <p className=' text-[rgb(70,70,98)] headerText'>By choosing us, you can have peace of mind knowing that your business is in safe hands. With Reinvent Marketing, you can trust that we have the expertise and systems in place to deliver exceptional results while keeping your business compliant and risk-free. Unlike other agencies, we prioritize your long-term success and take proactive measures to ensure that your review generation efforts remain within the boundaries set by the platforms. Our clients have entrusted us with their seller accounts, and we are proud to say that they have never received any policy violation warnings or faced unnecessary risks</p>
                 </div>
                 <img className='w-[462px] h-[660] ms-10 ps-10'   src={discuss2} alt="" />
 

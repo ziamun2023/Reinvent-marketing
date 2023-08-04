@@ -16,6 +16,8 @@ import AllRevies from '../section1/AllRevies';
 import Slider from '../section1/Slider';
 import Footer from '../section1/Footer';
 import Section6 from '../section1/Section6';
+import ScrollToTop from 'react-scroll-to-top';
+// import Meeting from '../../meeting/Meeting';
 
 
 
@@ -29,7 +31,9 @@ const Home = () => {
  
 <div className=''>
 <HomeBanner/>
+
       <Section1/>
+     
 
       <Section2/>
       <Section3/>
@@ -45,6 +49,9 @@ const Home = () => {
       <Section6/>
 </div>
 <Footer/>
+
+<ScrollToTop  smooth />
+
 
            
         </>
