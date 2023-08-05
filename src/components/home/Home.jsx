@@ -18,6 +18,7 @@ import Footer from '../section1/Footer';
 import Section6 from '../section1/Section6';
 import ScrollToTop from 'react-scroll-to-top';
 import SpecialService from '../specialServices/SpecialService';
+import Team from '../Team/Team';
 // import Meeting from '../../meeting/Meeting';
 
 
@@ -39,6 +40,7 @@ const Home = () => {
       <Section2/>
       <Section3/>
       <SpecialService/>
+      <Team/>
  <Section4/>
  <AllRevies/>
 
