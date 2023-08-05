@@ -31,8 +31,8 @@ fetch('review.json')
     }, [])
     return (
         <div className='bg-black mt-20 pb-24 relative z-20 '>
-              <p style={{fontWeight:"700"}} className='my-component text-3xl pt-10 text-center  text-white'>Showcasing Reviews from Successful Product Launches</p>
-            <p  className='my-component text-1xl pt-10 pb-10 text-white text-center'>Discover the Success Stories from Our Previous Product Launches</p>
+              <p style={{fontWeight:"700"}} className='detailFont text-3xl pt-10 text-center  text-white'>Showcasing Reviews from Successful Product Launches</p>
+            <p  className='detailFont text-1xl pt-10 pb-10 text-white text-center'>Discover the Success Stories from Our Previous Product Launches</p>
          
         
         <div 
@@ -44,7 +44,7 @@ fetch('review.json')
                {
                    items.map(item=>  <div className="  border-2 rounded-lg item relative">
                        <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                       <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                       <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
@@ -70,7 +70,7 @@ fetch('review.json')
                {
                    items.map(item=>  <div className="  border-2 rounded-lg item2 relative">
                        <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                       <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                       <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
@@ -96,7 +96,7 @@ fetch('review.json')
                {
                    items.map(item=>  <div className="  border-2 rounded-lg item relative">
                        <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                       <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                       <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>

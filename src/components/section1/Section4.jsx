@@ -9,7 +9,7 @@ const Section4 = () => {
     return (
         <div  className='grid lg:grid-cols-2  justify-items-center mt-5 lg:mt-10'>
                       <p style={{fontWeight:"700"}} className='text-black lg:text-5xl 
-     tracking-tight text-medium  lg:hidden   my-component text-3xl  '>Numbers Speak Louder</p>
+     tracking-tight text-medium  lg:hidden   detailFont text-3xl  '>Numbers Speak Louder</p>
       <p className='text-black lg:ms-8 ms-5 py-5 lg:hidden'>Our proven track record is not just a claim but delivered with evidence</p>
               <div  className=' lg:hidden md:hidden'>
                <div className='grid lg:grid-cols-2 lg:mb-16  '>
@@ -37,7 +37,7 @@ const Section4 = () => {
           <div data-aos="fade-up"
      data-aos-duration="1000">
           <p style={{fontWeight:"700"}} className='text-black lg:text-4xl 
-     tracking-tight text-medium   my-component text-3xl hidden lg:block '>Empowering Brands with <br /> Reviews</p>
+     tracking-tight text-medium   detailFont text-3xl hidden lg:block '>Empowering Brands with <br /> Reviews</p>
      <p className='text-black lg:ms-8 ms-5 py-5'>Unveiling Our Remarkable Achievements</p>
      <div className='lg:flex'>
 <div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>

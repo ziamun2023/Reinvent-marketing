@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Meeting from './meeting/Meeting.jsx';
 import Home from './components/home/Home.jsx';
+import SeoPage from './page/sero/SeoPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,9 @@ const router = createBrowserRouter([
     element:<Meeting/>},
 
       {path:'/',
-    element:<Home/>}
+    element:<Home/>},
+      {path:'/seo',
+    element:<SeoPage/>}
     ]
   },
 ]);

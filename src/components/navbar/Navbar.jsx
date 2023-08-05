@@ -19,6 +19,7 @@ import { ImPriceTag } from 'react-icons/Im';
 import { FaFacebookF } from 'react-icons/Fa';
 import { FaMedal } from 'react-icons/Fa';
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 // import logo from '../../assets/LogoReinvent Marketing Logo Black Text[1].png'
 // import { slide as Menu } from 'react-burger-menu'
 
@@ -33,7 +34,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex my-auto">
-          <div className="font-medium  my-auto mx-3 lg:block hidden">Home</div>
+          <div className="font-medium  my-auto mx-3 lg:block hidden"><Link>Home</Link></div>
           <div className="font-medium group relative  my-auto mx-3 lg:block hidden">
             Services
             <div className="w-[700px] grid   grid-cols-2 group-hover:opacity-100  duration-300 group-hover:h-[400px]  h-0 absolute   z-30 -right-5 rounded-3xl bg-white shadow-2xl ">
@@ -43,9 +44,9 @@ const Navbar = () => {
                </div>
              
                </Fade>
-               <Fade direction="up">
+             <Link to='/seo'>  <Fade direction="up">
                <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><BsSearchHeartFill size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">SEO optimization</p></div>
-               </Fade>
+               </Fade></Link>
               <Fade direction="up">
               <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><AiOutlineGoogle size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Google Local Listing</p></div>
               </Fade>
@@ -173,8 +174,8 @@ const Navbar = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
+
 
 export default Navbar;
-{/* <p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> */}

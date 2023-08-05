@@ -7,7 +7,7 @@ import img3 from "../../assets/teammember3.png"
 const Team = () => {
     return (
         <div>
-             <p data-aos="fade-down"  style={{fontWeight:"700"}}  className='my-component lg:my-12 mx-5 text-center text-4xl mt-12 lg:text-5xl text-black'> Meet Our Expert Team Member? </p>
+             <p data-aos="fade-down"  style={{fontWeight:"700"}}  className='detailFont lg:my-12 mx-5 text-center text-4xl mt-12 lg:text-5xl text-black'> Meet Our Expert Team Member? </p>
 
           <div className='lg:grid lg:grid-cols-3 justify-items-center'>
           <TeamCart img={img} title={"Jennie Watson"} subtitle={"CEO Write Master"}/>

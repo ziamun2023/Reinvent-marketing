@@ -33,7 +33,7 @@ const Section6 = () => {
 <img data-aos="fade-up-right" className='rounded-full w-20 shadow-md shadow-gray-300 p-2 absolute rotate-6 left-0 top-[250px] ' src={photo3} alt="" />
             </div>
             <div className=' lg:col-span-4'>
-<h1 data-aos="fade-down"  style={{fontWeight:"700"}}  className='my-component mt-12  text-4xl text-black'>
+<h1 data-aos="fade-down"  style={{fontWeight:"700"}}  className='detailFont mt-12  text-4xl text-black'>
 Skyrocket Your Brand to New Heights
 </h1>
 <p data-aos="flip-up" className='text-[rgb(21,21,21)] py-5'>Harness the power of reviews to dominate your market</p>

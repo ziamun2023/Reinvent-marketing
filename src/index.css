@@ -265,3 +265,14 @@ img{
  .detailFont{
   font-family: 'Roboto Condensed', sans-serif;
  }
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+ 
+ .detailFont3{
+  font-family: 'Inter', sans-serif;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+ .detailFont4{
+  font-family: 'Lexend', sans-serif;
+  
+ }

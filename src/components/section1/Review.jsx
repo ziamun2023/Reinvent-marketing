@@ -47,9 +47,9 @@ fetch('review.json')
 s
             </div> */}
             
-            <p  style={{fontWeight:"700"}} className='my-component text-4xl pt-10 text-center text-bol   text-white'>Showcasing Reviews from Successful Product Launches</p>
-            <p style={{fontWeight:"700"}} className='my-component text-4xl pt-10 text-center text-bold lg:hidden md:hidden  text-white'>Not Just Another Review</p>
-            <p   className='my-component text-1xl pt-10 pb-10 text-white text-center'>Discover the Success Stories from Our Previous Product Launches</p>
+            <p  style={{fontWeight:"700"}} className='detailFont text-4xl pt-10 text-center text-bol   text-white'>Showcasing Reviews from Successful Product Launches</p>
+            <p style={{fontWeight:"700"}} className='detailFont text-4xl pt-10 text-center text-bold lg:hidden md:hidden  text-white'>Not Just Another Review</p>
+            <p   className='detailFont text-1xl pt-10 pb-10 text-white text-center'>Discover the Success Stories from Our Previous Product Launches</p>
 
 
 <div 
@@ -62,7 +62,7 @@ s
                {
                    items.map(item=>  <div className="  border-2 rounded-lg item relative">
                        <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                       <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                       <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
@@ -91,7 +91,7 @@ s
                               {
                                   items2.slice(12).map(item=>  <div className="  border-2 rounded-lg item2 relative">
                                       <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                                      <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                                      <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                               
                                 <div className='ms-2 pt-2'>
                                 <p className='font-bold'>{ extractWordstitle(item.details)}</p>
@@ -114,7 +114,7 @@ s
                               {
                                   items.map(item=>  <div className="  border-2 rounded-lg item relative">
                                       <div className='flex w-4 pt-2 ms-2'> <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" />  <img src={star} alt="" /></div>
-                                      <p className='text-[rgb(214,140,78)] ms-2 font-medium my-component '>Verfied Purchase</p>
+                                      <p className='text-[rgb(214,140,78)] ms-2 font-medium detailFont '>Verfied Purchase</p>
                               
                                 <div className='ms-2 pt-2'>
                                 <p className='font-bold'>{ extractWordstitle(item.details)}</p>

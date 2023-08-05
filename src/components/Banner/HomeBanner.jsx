@@ -37,7 +37,7 @@ const HomeBanner = () => {
           <div  className='lg:flex lg:flex-row-reverse relative   justify-center mt-14   z-10' >
 
 <div className='relative group '>
-<p className='absolute  top-6 text-white  lg:text-2xl  font-semibold my-component tracking-wider left-16 lg:left-9'>80 NEW REVIEWS </p>
+<p className='absolute  top-6 text-white  lg:text-2xl  font-semibold detailFont tracking-wider left-16 lg:left-9'>80 NEW REVIEWS </p>
   
 <img className=' lg:w-[510px] lg:h-[514px] duration-500 h-[320px] group-hover:opacity-0 opacity-100 w-[300] mx-auto  rounded-3xl object-cover '  src={bannerPhoto} alt="" />
 <img className='lg:w-[510px] lg:h-[514px] h-[320px]  absolute top-0 z-0 w-[300] mx-auto  rounded-3xl object-cover  opacity-0 group-hover:opacity-100 duration-500'  src={bannerPhoto2} alt="" />
@@ -273,7 +273,7 @@ Ideal for outdoor activities</small>
 </div>
 <div  className='lg:mt-14 mt-20 lg:pe-20 ' >
     <p  data-aos="fade-right" style={{fontWeight:"700"}} className='text-gray-900 lg:text-5xl 
-     tracking-tight  my-component  text-3xl mt-0 lg:leading-normal mx-5 lg:mx-0'>Maximise Visibility through <br /> Customer <span className='text-[rgb(255,130,63)]'>Reviews.</span></p>
+     tracking-tight  detailFont  text-3xl mt-0 lg:leading-normal mx-5 lg:mx-0'>Maximise Visibility through <br /> Customer <span className='text-[rgb(255,130,63)]'>Reviews.</span></p>
     <p  data-aos="fade-right"  className=' mt-4 mb-7  text-[rgb(70,70,98)] headerText mx-5 lg:mx-0'>Unlock the Power of Product Reviews and Drive Your Sales to New  Heights</p>
 
     <div className='lg:flex'>

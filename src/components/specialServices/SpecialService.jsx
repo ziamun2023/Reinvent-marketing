@@ -12,7 +12,7 @@ const SpecialService = () => {
     return (
         <div className='mt-20 mb-28'>
             <div className=' bg-gradient-to-b from-[rgb(46,136,217)] to-[rgb(28,99,194)] w-[600px] rounded-r-full h-[140px] '>
-            <p  style={{fontWeight:700}}  className='my-component lg:my-12 mb-7  text-3xl lg:text-4xl text-center pt-12  text-black '>Simple 4 steps</p>
+            <p  style={{fontWeight:700}}  className='detailFont lg:my-12 mb-7  text-3xl lg:text-4xl text-center pt-12  text-black '>Simple 4 steps</p>
            
             </div>
             <div className='lg:grid  lg:grid-cols-2'>

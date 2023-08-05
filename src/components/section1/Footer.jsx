@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/Screenshot 2023-06-05 132249.png'
+import logo from "../../assets/search.png"
 const Footer = () => {
     return (
      <div className='h-[500px bg-black]'>
@@ -7,12 +7,12 @@ const Footer = () => {
              <div className='my-auto'>
             <img className='w-60 lg:ms-5 pt-5  ' src={logo} alt="" />
             </div>
-        <div className="flex text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl">
+        <div className="flex text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl">
         <p>Privacy Policy</p>
         <p className='ps-3'>About us</p>
         </div>
-        <p className=' text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl'>hello@Reinventmarketing.com <br /> +91 86996 99866</p>
-        <p className=' text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl'>Reinvent Marketing ® <br /> 2023 All Rights Reserved</p>
+        <p className=' text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl'>hello@Reinventmarketing.com <br /> +91 86996 99866</p>
+        <p className=' text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl'>Reinvent Marketing ® <br /> 2023 All Rights Reserved</p>
         </div>
 
 
@@ -20,12 +20,12 @@ const Footer = () => {
              <div className='my-auto'>
             <img className='w-60 lg:ms-5 pt-5 ' src={logo} alt="" />
             </div>
-        <div className="flex text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl">
+        <div className="flex text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl">
         <p>Privacy Policy</p>
         <p className='ps-3'>About us</p>
         </div>
-        <p className=' text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl'>hello@Reinventmarketing.com <br /> +91 86996 99866</p>
-        <p className=' text-white lg:ms-20 text-center lg:text-start my-component tracking-wide pt-5 text-2xl'>Reinvent Marketing ® <br /> 2023 All Rights Reserved</p>
+        <p className=' text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl'>hello@Reinventmarketing.com <br /> +91 86996 99866</p>
+        <p className=' text-white lg:ms-20 text-center lg:text-start detailFont tracking-wide pt-5 text-2xl'>Reinvent Marketing ® <br /> 2023 All Rights Reserved</p>
         </div>
      </div>
     );
