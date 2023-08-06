@@ -30,15 +30,15 @@ fetch('review.json')
 .then(data=>setItems(data)) 
     }, [])
     return (
-        <div className='bg-black mt-20 pb-24 relative z-20 '>
-              <p style={{fontWeight:"700"}} className='detailFont text-3xl pt-10 text-center  text-white'>Showcasing Reviews from Successful Product Launches</p>
-            <p  className='detailFont text-1xl pt-10 pb-10 text-white text-center'>Discover the Success Stories from Our Previous Product Launches</p>
+        <div className='bg-gradient-to-b from-[rgb(216,225,233)] to-[rgb(138,179,233)] mt-20 pb-24 relative z-20 '>
+              <p style={{fontWeight:"700"}} className='detailFont text-3xl pt-10 text-center  text-black'>Showcasing Reviews from Successful Product Launches</p>
+            <p  className='detailFont text-1xl pt-10 pb-10 text-black text-center'>Discover the Success Stories from Our Previous Product Launches</p>
          
         
         <div 
             data-aos="fade-up"
      data-aos-duration="3000" className='bg-black' >
-        <div className="container ">
+        <div className="container   bg-[rgb(216,225,233)] ">
                
                <div  className="inner-container flex">
                {
@@ -48,7 +48,7 @@ fetch('review.json')
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
-                       <p className='text-[rgb(141,143,143)]'>{ extractWords(item.details)}</p>
+                       <p className='text-[rgb(18,20,20)]'>{ extractWords(item.details)}</p>
                  </div>
                      <div className='flex absolute bottom-2 left-2'>
                      <img className='w-6 ' src={vector} alt="" /><p className='font-medium ps-2'>{item.love}</p>
@@ -64,7 +64,7 @@ fetch('review.json')
                </div>
                
                </div>
-               <div className="container2  ">
+               <div className="container2 bg-[rgb(216,225,233)]  ">
                
                <div  className="inner-container2  flex">
                {
@@ -74,7 +74,7 @@ fetch('review.json')
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
-                       <p className='text-[rgb(141,143,143)]'>{ extractWords(item.details)}</p>
+                       <p className='text-[rgb(18,20,20)]'>{ extractWords(item.details)}</p>
                  </div>
                      <div className='flex absolute bottom-2 left-2'>
                      <img className='w-6 ' src={vector} alt="" /><p className='font-medium ps-2'>{item.love}</p>
@@ -90,7 +90,7 @@ fetch('review.json')
                </div>
                
                </div>
-               <div className="container  ">
+               <div className="container    bg-[rgb(216,225,233)] ">
                
                <div  className="inner-container  flex">
                {
@@ -100,7 +100,7 @@ fetch('review.json')
                
                  <div className='ms-2 pt-2'>
                  <p className='font-bold'>{ extractWordstitle(item.details)}</p>
-                       <p className='text-[rgb(141,143,143)]'>{ extractWords(item.details)}</p>
+                       <p className='text-[rgb(18,20,20)]'>{ extractWords(item.details)}</p>
                  </div>
                      <div className='flex absolute bottom-2 left-2'>
                      <img className='w-6 ' src={vector} alt="" /><p className='font-medium ps-2'>{item.love}</p>

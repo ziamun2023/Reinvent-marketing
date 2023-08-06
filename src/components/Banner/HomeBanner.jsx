@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import 'animate.css';
-
+import Marquee from "react-fast-marquee";
 
 import bannerPhoto from '../../assets/bannerfirst.jpg'
 import bannerPhoto2 from '../../assets/80 NEW REVIEWS (1000 × 1000 px) 1.png'
@@ -273,13 +273,13 @@ Ideal for outdoor activities</small>
 </div>
 <div  className='lg:mt-14 mt-20 lg:pe-20 ' >
     <p  data-aos="fade-right" style={{fontWeight:"700"}} className='text-gray-900 lg:text-5xl 
-     tracking-tight  detailFont  text-3xl mt-0 lg:leading-normal mx-5 lg:mx-0'>Maximise Visibility through <br /> Customer <span className='text-[rgb(255,130,63)]'>Reviews.</span></p>
+     tracking-tight  detailFont  text-3xl mt-0 lg:leading-normal mx-5 lg:mx-0'>Maximise Visibility through <br /> Customer <span className='text-[rgb(52,141,219)]'>Reviews.</span></p>
     <p  data-aos="fade-right"  className=' mt-4 mb-7  text-[rgb(70,70,98)] headerText mx-5 lg:mx-0'>Unlock the Power of Product Reviews and Drive Your Sales to New  Heights</p>
 
     <div className='lg:flex'>
 <div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>
-<div className='grid justify-items-center  shadow-lg shadow-gray-300  hover:text-white duration-200 bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
-<button className=' flex pt-1 shadow-md shadow-gray-300 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
+<div className='grid justify-items-center  shadow-lg shadow-gray-300  hover:text-white duration-200 bg-[rgb(52,141,219)]  h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
+<button className=' flex pt-1 shadow-md ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
     <Link to='/meeting'> <div className='h-12  w-[320px]   duration-200 shadow-md shadow-gray-300 lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
      Schedule a Meeting
      </div></Link>
@@ -292,18 +292,30 @@ Ideal for outdoor activities</small>
 <div className='bg-[rgb(52,141,219)] lg:h-[40px] h-[20px] -rotate-2 w-full absolute top-[150px] lg:top-[480px]'>
 
 </div>
-<div className='bg-[rgb(251,188,29)] lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'>
+<div className=' bg-[rgb(233,241,253)]  lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'>
+{/* <div className='bg-[rgb(52,141,219)] lg:h-[40px] h-[20px]  -rotate-2 w-full absolute top-[170px] lg:top-[520px]'> */}
 
 </div>
     </div>
-    <div className='grid lg:grid-cols-4 mt-28 grid-cols-2 justify-items-center h-28 bg-black'>
+    {/* <div className='grid lg:grid-cols-4 mt-28 grid-cols-2 justify-items-center h-28 bg-black'>
       <img className='lg:w-44 w-28 my-auto' src={amazon} alt="" />
       <img className='lg:w-44 w-28 my-auto' src={amazon3} alt="" />
       <img className='lg:w-44 w-28 my-auto' src={amazon4} alt="" />
       <img className='lg:w-44 w-28 my-auto' src={amazon2} alt="" />
-    </div>
+    </div> */}
+ <marquee>
+<div className='flex gap-20 mt-20'>
+<p className='font-serif'>  amazon</p>
+<p className='font-serif'>  flipcart</p>
+<p className='font-serif'>  Trivago</p>
+<p className='font-serif'>  Learn how dynamic ads take personalization to the next level. Facebook's AI dynamically assembles ad elements based on user data, creating unique experiences for each viewer. Discover how this approach can boost conversions by showcasing the most relevant products or services to your audience</p>
+<p className='font-serif'>  goDaddy</p>
+<p className='font-serif'>  facebook</p>
+<p className='font-serif'>  goolge</p>
+</div>
+ </marquee>
     </div>
     );
 };
-// bg-[rgb(251,188,29)]
+// bg-[rgb(52,141,219)]
 export default HomeBanner;

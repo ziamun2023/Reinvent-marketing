@@ -40,7 +40,7 @@ const Section2 = () => {
       a free product to buyers in exchange for a review on the platform.</small>
 </p>
 </div>
-<div  data-aos="fade-up" className='lg:w-[348px] shadow-lg shadow-gray-400 relative rounded-3xl md:-mt-40 lg:mt-5 -mt-40 lg:h-[608px] w-[344px] h-[300px] md:w-[688px] md:h-[330px] bg-gradient-to-b from-[rgb(255,207,90)] to-[rgb(255,167,17)] '>
+<div  data-aos="fade-up" className='lg:w-[348px] shadow-lg shadow-gray-400 relative rounded-3xl md:-mt-40 lg:mt-5 -mt-40 lg:h-[608px] w-[344px] h-[300px] md:w-[688px] md:h-[330px] bg-gradient-to-b from-[rgb(134,193,218)] to-[rgb(17,188,255)] '>
 <img className='absolute lg:top-[60px] lg:left-32 md:bottom-3 md:left-16     w-[118px] hidden lg:block md:block ' src={photo2} alt="" />
 <p style={{fontWeight:"700"}} className='mt-[200px] lg:text-4xl 
      tracking-tight text-medium   detailFont text-3xl text-black lg:text-center lg:ms-5 md:ms-[330px] ms-5 lg:pt-60  pt-28 pb-2 ' >Review</p>
@@ -52,7 +52,7 @@ They then are asked to leave a detailed review of the product which increases th
      {/* <small className='my-componenet text-black  text-start   pt-10  '>This promotion offers a free product to buyers in exchange for a review on the platform.</small> */}
 </p>
 </div>
-<div data-aos="fade-up-left" className='lg:w-[240px] shadow-lg shadow-gray-400 relative lg:h-[390px] lg:mt-28 md:-mt-40 -mt-40 md:rounded-3xl rounded-3xl lg:rounded-r-3xl w-[344px] h-[300px] md:w-[688px] md:h-[330px] bg-gradient-to-b from-[rgb(254,107,105)] to-[rgb(248,63,50)] '>
+<div data-aos="fade-up-left" className='lg:w-[240px] shadow-lg shadow-gray-400 relative lg:h-[390px] lg:mt-28 md:-mt-40 -mt-40 md:rounded-3xl rounded-3xl lg:rounded-r-3xl w-[344px] h-[300px] md:w-[688px] md:h-[330px] bg-gradient-to-b from-[rgb(240,201,176)] to-[rgb(244,225,80)] '>
 <img className='absolute lg:-top-[110px] md:bottom-10 lg:left-20 md:right-0 w-[148px] hidden lg:block md:block ' src={photo3} alt="" />
 <p style={{fontWeight:"700"}} className='mt-[200px] lg:text-4xl 
      tracking-tight text-medium  md:pt-28 lg:pt-0  detailFont text-3xl text-black lg:ms-3 md:ms-10  pt-20 ms-5' >Rebate</p>

@@ -9,8 +9,11 @@ import {
 } from "react-router-dom";
 import Meeting from './meeting/Meeting.jsx';
 import Home from './components/home/Home.jsx';
-import SeoPage from './page/sero/SeoPage.jsx';
+import SeoPage from './page/SeoPage.jsx';
 import Facebookpage from './page/Facebookpage.jsx';
+import BrandMarketing from './page/BrandMarketing.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -25,7 +28,11 @@ const router = createBrowserRouter([
       {path:'/seo',
     element:<SeoPage/>},
     {path:'/facebook',
-    element:<Facebookpage/>}
+    element:<Facebookpage/>
+  },
+    {path:'/brand',
+    element:<BrandMarketing/>
+  }
     ]
   },
 ]);

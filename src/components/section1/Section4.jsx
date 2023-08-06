@@ -41,7 +41,7 @@ const Section4 = () => {
      <p className='text-black lg:ms-8 ms-5 py-5'>Unveiling Our Remarkable Achievements</p>
      <div className='lg:flex'>
 <div className='grid lg:grid-cols-2 justify-items-center gap-5 lg:gap-2 '>
-<div className='grid justify-items-center shadow-md shadow-gray-400  bg-[rgb(251,188,29)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
+<div className='grid justify-items-center shadow-md shadow-gray-400  bg-[rgb(52,141,219)] h-12   w-[336px] lg:w-[151px] mx-auto text-center rounded-2xl lg:rounded-3xl px-3 py-2 font-medium '>  <div>
 <button className=' flex  pt-1 ps-2'>Call us Now <img className='   w-8 p-1 py-auto' src={arrow} alt="" /></button ></div> </div>
      <div className='h-12 shadow-md shadow-gray-400  w-[320px]   lg:w-40 border-2 text-center font-medium border-gray-900  rounded-2xl py-2   '>
      Schedule a Meeting

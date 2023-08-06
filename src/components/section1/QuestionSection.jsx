@@ -17,24 +17,24 @@ const QuestionSection = () => {
 <img className='mt-[800px] hidden lg:block' src={qstn} alt="" />
   </div>
   <div className='lg:col-span-3 col-span-5 mx-4  '> 
-  <div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+  <div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
  What happens to products after the Campaign?
   </div>
   <div className="collapse-content">
     <p className='text-[rgb(70,70,98)] detailFont font-normal'>The process steps involve buyers contacting us to order the product from Marketplace. Once they receive the product, they post a review and inform us about it. Shoppers are then eligible to receive the agreed-upon rebate as per the campaign terms..</p>
   </div>
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   How long does it take to post a review?
 
   </div>
   <div className="collapse-content">
     <p className='text-[rgb(70,70,98)] detailFont font-normal'>The timeline for posting a review may vary depending on individual shoppers. Generally, shoppers post their reviews within 10 days of receiving the product.</p>
   </div>
-</div>   <div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+</div>   <div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   How much does it cost to run a campaign on Reinvent Marketing? Will you charge any commission for orders?
   </div>
   <div className="collapse-content">
@@ -43,8 +43,8 @@ const QuestionSection = () => {
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   How many shoppers are active in your Community, Who are they?
   </div>
   <div className="collapse-content">
@@ -54,8 +54,8 @@ const QuestionSection = () => {
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   Which marketplaces do you support? I’m located outside India can I still create a campaign? 
   </div>
   <div className="collapse-content">
@@ -66,8 +66,8 @@ While our main focus is on Indian marketplaces, we do consider campaigns for int
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   My products are expensive. Do I have to Give Products Free of Charge?
   </div>
   <div className="collapse-content">
@@ -78,8 +78,8 @@ While it is common for products to be offered at discounted prices or free of ch
   </div>
   
 </div>
-<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   Are There any Restrictions On product Categories to run campaigns?
   </div>
   <div className="collapse-content">
@@ -91,8 +91,8 @@ Furthermore, in certain cases, we may impose limitations on the number of redemp
   </div>
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   Will my brand have control over the review content generated through the campaigns?
 
   </div>
@@ -103,8 +103,8 @@ Furthermore, in certain cases, we may impose limitations on the number of redemp
   </div>
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   What kind of reporting and analytics will I receive regarding the review campaigns?
 
   </div>
@@ -117,8 +117,8 @@ These reporting fields will provide you with valuable data and insights into the
   </div>
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   Does Reinvent Marketing offer any additional services or support for brand building on Amazon?
 
   </div>
@@ -144,8 +144,8 @@ These reporting fields will provide you with valuable data and insights into the
  
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   How does Reinvent Marketing handle negative reviews or competitor attacks?
 
   </div>
@@ -157,8 +157,8 @@ These reporting fields will provide you with valuable data and insights into the
   </div>
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   What happens if a shopper provides a fake order number, cancels, or returns their order after the Campaign?
   </div>
   <div className="collapse-content">
@@ -170,8 +170,8 @@ These reporting fields will provide you with valuable data and insights into the
   </div>
   
 </div>
-<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(251,188,29)]">
-  <div className="collapse-title text-xl font-medium hover:text-[rgb(251,188,29)] py-7 ">
+<div  tabIndex={0} className="collapse collapse-plus  border border-base-300 bg-base-100 rounded-box hover:border-3 mb-[16px] hover:border-[rgb(52,141,219)]">
+  <div className="collapse-title text-xl font-medium hover:text-[rgb(52,141,219)] py-7 ">
   Can you put negative reviews on my competitor's Products?
   </div>
   <div className="collapse-content">

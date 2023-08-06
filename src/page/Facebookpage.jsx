@@ -9,16 +9,27 @@ import AnimatedCart from '../ResuableComponenet/AnimatedCart';
 import banner1 from '../assets/facebookbanner1.jpg';
 import banner2 from '../assets/facebookbanner2.jpg';
 import banner3 from '../assets/facebookbanner3.jpg';
+import { Fade } from 'react-awesome-reveal';
+import Pricing from '../ResuableComponenet/Pricing';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ConnectUs from '../ResuableComponenet/ConnectUs';
+// ..
+AOS.init();
 const Facebookpage = () => {
     return (
-        <div>
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
 
           
             <p className='text-center detailFont4 text-gray-800 text-2xl my-10'>Navigating Ad Targeting and Audience Segmentation</p>
             <p className='text-center detailFont4 text-gray-800 text-3xl mb-10'>Unlock Your Online Success: Expert Digital Marketing Services Await</p>
 
-            <div className='h-[500px] bg-[rgb(233,241,253)] lg:grid lg:grid-cols-2 justify-items-center '>
-               <div className='my-auto mx-10'>
+            <div   className='h-[500px] bg-[rgb(233,241,253)] lg:grid lg:grid-cols-2 justify-items-center '>
+               <div  data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-up"  className='my-auto mx-10'>
                <p className='detailFont4 text-gray-800 text-[20px] my-10 '>Engage to Convert: Mastering Facebook Ad Engagement</p>
                <p className='detailFont4 text-gray-800 text-4xl my-3'>Team of over 540  expert</p>
                <p className='detailFont4 text-gray-800 text-[15px] my-5'>Dive into the strategies that drive engagement and conversions. Explore techniques such as interactive ad formats, compelling call-to-actions, and social proof elements that encourage users to take desired actions on your website</p>
@@ -37,11 +48,40 @@ const Facebookpage = () => {
                </div>
 
             </div>
-
-            <div className='lg:grid lg:grid-cols-3 gap-10 justify-items-center'>
-                <AnimatedCart img={banner1} text={"Engage to Convert: Mastering Facebook Ad Engagement"} details={" Dive into the strategies that drive engagement and conversions. Explore techniques such as interactive ad formats, compelling call-to-actions, and social proof elements that encourage users to take desired actions on your website"} />
+<div>
+    <p className='detailFont4 text-3xl text-center font-semibold my-20'>Think further with our expert insights</p>
+</div>
+            <div data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-up"  className='lg:grid lg:grid-cols-3 gap-10 justify-items-center my-20'>
+            
+              <AnimatedCart   img={banner1} text={"Engage to Convert: Mastering Facebook Ad Engagement"} details={" Dive into the strategies that drive engagement and conversions. Explore techniques such as interactive ad formats, compelling call-to-actions, and social proof elements that encourage users to take desired actions on your website"} />
+             
                 <AnimatedCart img={banner2} text={"Smart Ad Creation with Automated Content Generation:"} details={"Smart Ad Creation with Automated Content Generation:"}/>
                 <AnimatedCart img={banner3} text={"Connectivity Lab: nternet.org (now Free Basics)"} details={"Facebook's Connectivity Lab focused on exploring new technologies to provide affordable and accessible internet access to underserved areas. This included projects related to high-altitude drones and satellites."}/>
+            </div>
+            <div className='lg:grid lg:grid-cols-3 justify-items-center '>
+              <div  data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-left" >
+              <Pricing/>
+              </div>
+           <div  data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-down" >     <Pricing/></div>
+              <div  data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-right" >
+              <Pricing/>
+              </div>
+            </div>
+            <div >
+                <ConnectUs/>
+                 
             </div>
         </div>
     );

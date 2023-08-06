@@ -1,20 +1,21 @@
 import React from 'react';
-import img1 from "../../assets/laptop.png"
-import img2 from "../../assets/tablet.png"
-import icon from "../../assets/search.png"
-import icon2 from "../../assets/traffic.png"
-import icon3 from "../../assets/bulb.png"
-import seo from "../../assets/seobackground.png"
+import img1 from "../assets/laptop.png"
+import img2 from "../assets/tablet.png"
+import icon from "../assets/search.png"
+import icon2 from "../assets/traffic.png"
+import icon3 from "../assets/bulb.png"
+import seo from "../assets/seobackground.png"
 import { Slide } from 'react-awesome-reveal';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import Pricing from '../../ResuableComponenet/Pricing';
-import ConnectUs from '../../ResuableComponenet/ConnectUs';
+import Pricing from '../ResuableComponenet/Pricing';
+import ConnectUs from '../ResuableComponenet/ConnectUs';
 // ..
 AOS.init();
 const SeoPage = () => {
     return (
-        <div className='my-20'>
+        <div data-aos="fade-up"
+        data-aos-duration="1000" className='my-20'>
                  <div className='lg:grid lg:grid-cols-2 relative justify-items-center '>
             {/* <img className='absolute top-0' src={seo} alt="" /> */}
             <div data-aos-offset="200"
