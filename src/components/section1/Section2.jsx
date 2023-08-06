@@ -10,6 +10,7 @@ AOS.init();
 const Section2 = () => {
     return (
         <div className='grid justify-items-center '>
+          
              <p data-aos="fade-down"  style={{fontWeight:"700"}}  className='detailFont lg:my-12 mx-5 text-center text-4xl mt-12 lg:text-5xl text-black'> How does the system work? </p>
            <div className='lg:flex flex-row  justify-center '>
 <div data-aos="fade-up-right" className='lg:w-[240px] shadow-lg shadow-gray-400 hidden lg:block md:block relative lg:h-[390px] lg:mt-28 md:-mt-40 -mt-40 rounded-3xl lg:rounded-l-3xl w-[344px] h-[300px] md:w-[688px] md:h-[330px] bg-gradient-to-b from-[rgb(13,184,245)] to-[rgb(11,143,241)] '>

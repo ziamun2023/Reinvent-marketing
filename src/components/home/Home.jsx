@@ -21,19 +21,26 @@ import SpecialService from '../specialServices/SpecialService';
 import Team from '../Team/Team';
 // import Meeting from '../../meeting/Meeting';
 
+import Lottie, { useLottie } from "lottie-react";
+import animation from "../../../public/lottie/bloom.json";
 
 
 
 const Home = () => {
 
+    const options = {
+        animationData: animation,
+        loop: false
+      };
+      const { View } = useLottie(options);
   
     return (
         <>
-  
+ <p className='absolute top-0 '> {View}</p>
  
 <div className=''>
 <HomeBanner/>
-
+<Section4/>
       <Section1/>
      
 
@@ -41,7 +48,7 @@ const Home = () => {
       <Section3/>
       <SpecialService/>
       <Team/>
- <Section4/>
+
  <AllRevies/>
 
  <SectionBenefit/>

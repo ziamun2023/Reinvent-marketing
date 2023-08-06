@@ -20,10 +20,13 @@ import { FaFacebookF } from 'react-icons/Fa';
 import { FaMedal } from 'react-icons/Fa';
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+
+
 // import logo from '../../assets/LogoReinvent Marketing Logo Black Text[1].png'
 // import { slide as Menu } from 'react-burger-menu'
 
 const Navbar = () => {
+
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -37,6 +40,7 @@ const Navbar = () => {
           <div className="font-medium  my-auto mx-3 lg:block hidden"><Link>Home</Link></div>
           <div className="font-medium group relative  my-auto mx-3 lg:block hidden">
             Services
+           
             <div className="w-[700px] grid   grid-cols-2 group-hover:opacity-100  duration-300 group-hover:h-[400px]  h-0 absolute   z-30 -right-5 rounded-3xl bg-white shadow-2xl ">
               <div className="group-hover:flex  hidden flex-col gap-8 mt-12 mx-auto ">
                <Fade direction="up">
@@ -61,8 +65,9 @@ const Navbar = () => {
                 
          <Link to='/brand'>
          <Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><TbBrandApplePodcast size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Brand Marketing</p></div></Fade></Link>
+<Link to='/social'>
 
-           <Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><BiMobileAlt size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Social media growth</p></div></Fade>
+<Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><BiMobileAlt size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Social media growth</p></div></Fade></Link>
              <Fade direction="up">
              <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><FaBlogger size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Blog promotion</p></div>
              </Fade>
@@ -79,15 +84,17 @@ const Navbar = () => {
             pages
             <div className="w-[430px] grid   grid-cols-2 group-hover:opacity-100  duration-300 group-hover:h-[300px]  h-0 absolute   z-30 -right-5 rounded-3xl bg-white shadow-2xl ">
               <div className="group-hover:flex  hidden flex-col gap-8 mt-12 mx-auto ">
-               <Fade direction="up">
+             <Link to='/about'>
+             <Fade direction="up">
                <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><BsInfoCircle size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">about us</p></div>
-               </Fade>
+               </Fade></Link>
+
                <Fade direction="up">
                <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><AiOutlineQuestionCircle size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">why us</p></div>
                </Fade>
-              <Fade direction="up">
+            <Link to='/case'>  <Fade direction="up">
               <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><MdOutlineAnalytics size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Case study</p></div>
-              </Fade>
+              </Fade></Link>
            
             
               </div>
@@ -95,7 +102,8 @@ const Navbar = () => {
               <div className=" group-hover:flex  hidden flex-col gap-8  mt-12 x-auto">
                 
            <Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><MdOutlineFeaturedPlayList size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Features</p></div></Fade>
-           <Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><SiMicrosoftteams size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Our team</p></div></Fade>
+         <Link to='/ourteam'>
+         <Fade direction="up">   <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><SiMicrosoftteams size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Our team</p></div></Fade></Link>
              <Fade direction="up">
              <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><ImPriceTag size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Our pricing</p></div>
              </Fade>
@@ -108,9 +116,10 @@ const Navbar = () => {
             Digital products
             <div className="w-[430px] grid   grid-cols-2 group-hover:opacity-100  duration-300 group-hover:h-[300px]  h-0 absolute   z-30 -right-5 rounded-3xl bg-white shadow-2xl ">
               <div className="group-hover:flex  hidden flex-col gap-8 mt-12 mx-auto ">
-               <Fade direction="up">
+             <Link to='/logo'>
+             <Fade direction="up">
                <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><BsInfoCircle size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Logo Making</p></div>
-               </Fade>
+               </Fade></Link>
                <Fade direction="up">
                <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><AiOutlineQuestionCircle size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Video editing</p></div>
                </Fade>

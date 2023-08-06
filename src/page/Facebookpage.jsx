@@ -11,9 +11,10 @@ import banner2 from '../assets/facebookbanner2.jpg';
 import banner3 from '../assets/facebookbanner3.jpg';
 import { Fade } from 'react-awesome-reveal';
 import Pricing from '../ResuableComponenet/Pricing';
+import ConnectUs from '../ResuableComponenet/ConnectUs';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import ConnectUs from '../ResuableComponenet/ConnectUs';
+
 // ..
 AOS.init();
 const Facebookpage = () => {
@@ -61,6 +62,9 @@ const Facebookpage = () => {
                 <AnimatedCart img={banner2} text={"Smart Ad Creation with Automated Content Generation:"} details={"Smart Ad Creation with Automated Content Generation:"}/>
                 <AnimatedCart img={banner3} text={"Connectivity Lab: nternet.org (now Free Basics)"} details={"Facebook's Connectivity Lab focused on exploring new technologies to provide affordable and accessible internet access to underserved areas. This included projects related to high-altitude drones and satellites."}/>
             </div>
+            <p className='text-center mt-20 text-blue-600'>BEST PLAN & PACKAGE</p>
+        <p className='detailFont text-[35px] my-6 text-center font-semibold'>Our Pricing Plans</p>
+        <p className='text-center my-12'>Consider the range of services you offer, such as on-page optimization, off-page optimization, <br /> content creation, technical audits, and more..</p>
             <div className='lg:grid lg:grid-cols-3 justify-items-center '>
               <div  data-aos-offset="200"
     data-aos-delay="50"

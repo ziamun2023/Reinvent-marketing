@@ -1,0 +1,69 @@
+[
+    {   "id":"jdlkajfksjflkasjfk",
+    "productName":"Pixel craft log design",
+    "description":" PixelCraft Logo Designs specializes in crafting visually stunning and memorable logos. Our team of skilled designers combines precision and creativity to transform your brand's identity into a captivating visual mark that leaves a lasting impression.",
+    "price":"47.99",
+
+    "serviceBy":"John",
+    "link":"https://i.postimg.cc/133BdLs1/3d-fluency-ouch.png"
+
+    },
+    {   "id":"jkfjdlkajfksjllkasjfk",
+    "productName":"IconicEdge Logo Creations",
+    "description":"At CreativeMark Logo Studio, we transform ideas into remarkable logos. Our creative experts blend innovative concepts with design finesse to encapsulate your brand's essence. With an eye for uniqueness, we ensure your logo stands out in a crowded marke.",
+    "price":"27.99",
+
+    "serviceBy":"Micky  ",
+    "link":"https://i.postimg.cc/rsdcghs1/3d-business-icons-logo-side-view.png"
+
+    },
+    {   "id":"jkfjdlkasaksjflkasjfk",
+    "productName":"IconicEdge Logo Creations",
+    "description":"IconicEdge Logo Creations is your gateway to distinctive branding. With a commitment to creating logos that resonate, we infuse each design with authenticity and impact. We believe in crafting icons that not only reflect your business but also become synonymous with it.",
+    "price":"20.99",
+
+    "serviceBy":"Ruby",
+    "link": "https://i.postimg.cc/bdcXgpKP/3d-plastilina-three-quarter-view-of-a-round-blue-facebook-logo.png"
+
+    },
+    {   "id":"jkfjdlrrjfksjflkasjfk",
+    "productName":"DesignMosaic Logo Solutions:",
+    "description":" DesignMosaic Logo Solutions pieces together your brand story through thoughtful logos. Like a mosaic, we assemble every element with care, resulting in a harmonious and meaningful representation of your business. Our logos are designed to connect with your audience on a profound level..",
+    "price":"37.99",
+
+    "serviceBy":"michel",
+    "link": "https://i.postimg.cc/mgTZWy5s/3d-plastilina-three-quarter-view-of-a-square-pink-instagram-logo.png"
+
+    }
+    ,
+    {   "id":"jkfj33kajfksjflkasjfk",
+    "productName":"EmblemSpark Graphics:",
+    "description":" EmblemSpark Graphics ignites your brand's presence with meticulously crafted logos. Our team ignites your vision into a spark that radiates across various platforms. With a blend of creativity and precision, we design logos that become the emblem of your business's success",
+    "price":"18.99",
+
+    "serviceBy":"Jimmy",
+    "link":"https://i.postimg.cc/gkHds6kB/3d-fluency-skype-logo.png"
+
+    },
+    {
+        "id":"jkfjdlkaj00sjflkasjfk",
+    "productName":"original Graphics:",
+    "description":" EmblemSpark Graphics ignites your brand's presence with meticulously crafted logos. Our team ignites your vision into a spark that radiates across various platforms. With a blend of creativity and precision, we design logos that become the emblem of your business's success",
+    "price":"18.99",
+
+    "serviceBy":"dummy",
+    "link":"https://i.postimg.cc/sDmd7dwk/3d-fluency-smart-upscaler.png"
+
+    },
+    {
+        "id":"jkfj31kajfksjflkasjfk",
+    "productName":"original Graphics:",
+    "description":" EmblemSpark Graphics ignites your brand's presence with meticulously crafted logos. Our team ignites your vision into a spark that radiates across various platforms. With a blend of creativity and precision, we design logos that become the emblem of your business's success",
+    "price":"33.99",
+
+    "serviceBy":"samin",
+    "link":"https://i.postimg.cc/J46YR1Tz/3d-plastilina-three-quarter-view-of-a-square-blue-linkedin-logo.png"
+
+    }
+]
+
