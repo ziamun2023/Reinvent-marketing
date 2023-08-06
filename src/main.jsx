@@ -10,6 +10,7 @@ import {
 import Meeting from './meeting/Meeting.jsx';
 import Home from './components/home/Home.jsx';
 import SeoPage from './page/sero/SeoPage.jsx';
+import Facebookpage from './page/Facebookpage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,9 @@ const router = createBrowserRouter([
       {path:'/',
     element:<Home/>},
       {path:'/seo',
-    element:<SeoPage/>}
+    element:<SeoPage/>},
+    {path:'/facebook',
+    element:<Facebookpage/>}
     ]
   },
 ]);

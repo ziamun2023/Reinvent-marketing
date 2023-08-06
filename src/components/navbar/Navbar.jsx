@@ -40,8 +40,8 @@ const Navbar = () => {
             <div className="w-[700px] grid   grid-cols-2 group-hover:opacity-100  duration-300 group-hover:h-[400px]  h-0 absolute   z-30 -right-5 rounded-3xl bg-white shadow-2xl ">
               <div className="group-hover:flex  hidden flex-col gap-8 mt-12 mx-auto ">
                <Fade direction="up">
-               <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><FaFacebookF size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Facebook Promotion</p>
-               </div>
+             <Link to='/facebook'>  <div className="flex group hover:translate-x-4 duration-300 hover:shadow-inner px-2 py-2 rounded-lg  hover:shadow-inherit "><p className="my-auto me-5"><FaFacebookF size={30}/></p><p className=" bg-yellow-300 duration-500 h-[2px] group-hover:w-3 w-0 mx-2 my-auto"></p> <p className="my-auto">Facebook Promotion</p>
+               </div></Link>
              
                </Fade>
              <Link to='/seo'>  <Fade direction="up">

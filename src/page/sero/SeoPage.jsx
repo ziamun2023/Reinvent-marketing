@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from "../../assets/laptop.png"
+import img2 from "../../assets/tablet.png"
 import icon from "../../assets/search.png"
 import icon2 from "../../assets/traffic.png"
 import icon3 from "../../assets/bulb.png"
@@ -7,24 +8,46 @@ import seo from "../../assets/seobackground.png"
 import { Slide } from 'react-awesome-reveal';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Pricing from '../../ResuableComponenet/Pricing';
+import ConnectUs from '../../ResuableComponenet/ConnectUs';
 // ..
 AOS.init();
 const SeoPage = () => {
     return (
         <div className='my-20'>
-            <div className='lg:grid lg:grid-cols-2 relative justify-items-center '>
-            <img className='absolute top-0' src={seo} alt="" />
-               <div className='mx-10'>
-               <img src={img1} alt="" />
-               </div>
-               <div className='mx-20 my-auto'>
+                 <div className='lg:grid lg:grid-cols-2 relative justify-items-center '>
+            {/* <img className='absolute top-0' src={seo} alt="" /> */}
+            <div data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-up" className='mx-20 my-auto'>
                 <p className='detailFont4 text-[20px]  '>WE MAKE YOUR LIFE BETTER</p>
                 <p  className=' detailFont4 text-[26px] font-semibold'>Why Is Search Engine
 Optimization Service Is
 Important For Your Business?</p>
                 <p  className=' text-[16px] detailFont4    my-10 '>We provide marketing services to startups and small businesses looking for a partner for their digital media. We work with you, not for you.We are lorem duoa headquartered in North-Eastern France, with our 19 associates located across nine countries in order to best serve a client base that stretches throughout North America, Curabitur accumsan ultricies ultricies. Pellentesque dapibus at nulla sed viverra. Fusce tempor orci non massa iaculis, eu auctor.</p>
                </div>
+               <div className='mx-10'>
+               <img src={img1} alt="" />
+               </div>
+             
             </div>
+            <div className='lg:grid lg:grid-cols-2 relative -mt-28 justify-items-center '>
+            <img className='absolute top-0' src={seo} alt="" />
+               <div className='mx-10'>
+               <img src={img2} alt="" />
+               </div>
+               <div data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" data-aos="fade-up"  className='mx-20 my-auto'>
+                <p className='detailFont4 text-[20px]  '>Adaptation and Strategy Refinement</p>
+                <p  className=' detailFont4 text-[26px] font-semibold'>Adaptation and Strategy Refinement</p>
+                <p  className=' text-[16px] detailFont4    my-10 '>Consistently review your website's performance metrics, including traffic, conversions, bounce rates, and rankings.
+Use tools like Google Analytics, Google Search Console, and SEO software to gather data.Look for patterns and trends in your data. Identify which pages are performing well, which keywords are driving traffic, and where you might be facing challenges.</p>
+               </div>
+            </div>
+       
             <div className='lg:grid lg:grid-cols-2'>
                 <div className='my-auto mx-16'>
                     <p className=''>Our Services</p>
@@ -104,6 +127,18 @@ These tools provide insights into your rankings, fluctuations, and potential opp
             <div >
               
 
+            </div>
+            <p className='text-center mt-20 text-blue-600'>BEST SEO PLAN & PACKAGE</p>
+        <p className='detailFont text-[35px] my-6 text-center font-semibold'>Our Pricing Plans</p>
+        <p className='text-center my-12'>Consider the range of services you offer, such as on-page optimization, off-page optimization, <br /> content creation, technical audits, and more..</p>
+            <div className='lg:grid lg:grid-cols-3 justify-items-center '>
+                <Pricing/>
+                <Pricing/>
+                <Pricing/>
+            </div>
+            <div >
+                <ConnectUs/>
+                 
             </div>
         </div>
     );
